@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/canyon-crest/react-app-singhari",
+  "homepage": "https://canyon-crest.github.io/react-app-singhari",
  "scripts": {
   "dev": "vite",
   "build": "vite build",
