@@ -3,16 +3,23 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from "./Card.jsx"
+import Nav from "./Nav.jsx"
+import Generator from "./Generator.jsx"
+import Footer from './Footer.jsx'
+import About from './About.jsx'
+import Home from './Home.jsx'
+
 
 function App() {
+  const [page, setPage] = useState("home")
 
   return (
     <>
-      <div>
-        <h1>dinosaur facts!</h1>
-        <Card dino="Anchiornis huxleyi" description="an early bird, having feathers, pellets, and many other traits. Unlike modern birds, it had four wings, with its feet also having flight feathers like the Microraptor." />
-        <Card dino="Baryonyx Walkeri" description="a theropod dinosaur from the Early Cretaceous period that bares some similarity to Spinosaurs though isn't one. It likely ate fish." />
-      </div>
+      <Nav setPage={setPage}/>
+      {page === "about" && <About />}
+      {page === "generator" && <Generator />}
+      {page === "home" && <Home />}
+      <Footer />
     </>
   )
 }
