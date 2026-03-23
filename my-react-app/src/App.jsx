@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
-import Card from "./Card.jsx"
+// import Card from "./Card.jsx"
 import Nav from "./Nav.jsx"
 import Generator from "./Generator.jsx"
 import Footer from './Footer.jsx'

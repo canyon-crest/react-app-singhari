@@ -37,7 +37,7 @@ function Example() {
   };
   return (
     <div style={{ padding: "2rem", maxWidth: "600px", margin: "0 auto" }}>
-      <h1>My Firestore App</h1>
+      <h1>List out your favorite things!</h1>
       {/* Input + Button */}
       <div>
         <input
